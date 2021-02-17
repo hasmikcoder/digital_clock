@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.clock {
+    background: linear-gradient(to right, #0084ff, #00eeff);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    padding: 20px 50px;
+
+   }
+
+   h1 {
+   font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+
+   }
