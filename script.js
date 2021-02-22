@@ -1,18 +1,18 @@
 function currentTime() {
 
-var date = new Date();        /* creating object of Date class */
+var date = new Date();      /* creating object of Date class */
 var hours = date.getHours();
 var minutes =date.getMinutes();
 var seconds = date.getSeconds();
 
 var am_or_pm = document.getElementById('am_or_pm'); 
 
-if (hours >= 12) 
-{
+if (hours >= 12) {
+
     am_or_pm.innerHTML ="PM";
 }
-else
-{
+else {
+
     am_or_pm.innerHTML ="AM";
 }
 

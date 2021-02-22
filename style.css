@@ -3,7 +3,7 @@
 }
 
 .clock {
-    background: linear-gradient(to right, #0084ff, #00eeff);
+    background: linear-gradient(to right, #a37bbe, #067be9);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,8 +15,33 @@
    }
 
    h1 {
-   font-size: 60px;
-    margin: 0px;
-    padding: 0px;
+    color:lightblue;
+    font-size: 60px;
+    margin: 75px;
+    text-align: center;
+  
 
    }
+body {
+  background-color:rgb(0, 0, 0);
+}
+   
+   /* On devices smaller than 940px */
+   @media(max-width: 940px) {
+    /* start mobile responsive here */
+    .clock {
+      
+      border: 5px solid red;
+    }
+
+    h1 {
+      display: inline-flex;
+      font-size: 40px;
+    }
+    body {
+        background-color: lightblue;
+        
+      }
+    }
+
+    
